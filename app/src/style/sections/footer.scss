@@ -1,0 +1,33 @@
+#footer{
+    background-color:$secondGrey-color;
+      .image {
+          min-width: 65px;
+          height: 65px;
+          margin: 0 15px;
+          border: 0.5px solid #515358;
+          border-radius: 50%;
+          justify-content: center;
+          align-items: center;
+          display: flex;
+         object-fit: contain;
+         @media (max-width: 420px) {
+             margin-top: 10px;
+         }
+          i{
+              color: $white-color;
+          }
+          font-size: 25px;
+
+          .md-block {
+              margin-bottom: 10px;
+              margin: 0;
+          }
+      }
+      .footer-item-2{
+        p {
+            color: #515358;
+        }
+      }
+      
+     
+}

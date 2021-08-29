@@ -1,0 +1,56 @@
+#price{
+    background: $firstGrey-color;
+    h3{
+        color: $white-color;
+    }
+    .card{
+        height: 100%;
+        border: none;
+        .card-header{
+            .p1{
+                color: black;
+            }
+           p{
+               color: #9da6ac;
+           }
+        }
+        .card-body{
+            border-bottom: none;
+            i{
+                color: $main-color;    
+            }
+            p{
+                font-weight:bold;
+            }
+        }
+        .card-footer{
+            border-top: none;
+            .card-footer-item-1{
+                font-size: 28px;
+                font-weight: bold;
+                .zero{
+                    font-size: 38px;
+                }
+                .permonths{
+                    color: #9da6ac;
+                }
+            }
+            .card-footer-item-2{
+             .btn{
+                  box-shadow: -1px 1px 0px 1px #ca3157;
+                 background-color: $main-color;
+                 border: none !important;
+             }   
+             p{
+                color: #9da6ac;
+             }
+            }
+        }
+    }
+    .price-item-2{
+       .card{
+           border: 1px solid $main-color;
+       }
+    }
+  
+    }

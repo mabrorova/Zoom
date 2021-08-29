@@ -1,0 +1,44 @@
+//Description section. 
+.describe {
+    background: $firstGrey-color;
+    font-family: $M;
+    img{
+     width: 100%;
+     height:auto;
+        
+    }
+    h5 {
+        font-size: 40px;
+        color: $white-color;
+        font-family: $M;
+    }
+    p{
+        font-size: 13px;
+        color: #9da6ac;
+        font-family: $M;
+    }
+    .describe-item {
+        display: flex;
+        .image {
+            .fa {
+                margin: 0 10px;
+                font-size: 20px;
+                color:$main-color ;
+            }
+        }
+        .desc{
+            p{
+                font-size: 13px;
+                color: #9da6ac;
+                font-family: $M;
+            }
+            h4{
+                text-transform: uppercase;
+                font-style: bold;
+                font-size: 21px;
+                color: $white-color;
+                font-family: $M;
+            }
+        }
+    }
+}

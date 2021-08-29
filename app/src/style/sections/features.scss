@@ -1,0 +1,41 @@
+//Feature section.
+#features {
+  background: #34363a;
+  .iphone {
+    width: 100%;
+    height: auto;
+  }
+  .image {
+    min-width: 65px;
+    height: 65px;
+    margin: 0 15px;
+    border: 0.5px solid #515358;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+    font-size: 25px;
+    .md-block {
+      margin-bottom: 10px;
+      margin: 0;
+    }
+  }
+  .features-item {
+    display: flex;
+   
+    color: #9da6ac;
+    .fa {
+      color: $white-color;
+    }
+    h3 {
+      color: $white-color;
+    }
+    .md-block {
+      margin-bottom: 40px;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  }
+}

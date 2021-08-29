@@ -1,0 +1,17 @@
+.layout{
+background:$firstGrey-color;  
+    h3 {
+        color: white;
+    }
+    p{
+        color: #9da6ac; 
+        .word{
+            color: $main-color;
+        }  
+    }
+    img{
+        width: 100%;
+        height: auto;
+    }
+
+}

@@ -1,0 +1,11 @@
+.seen{
+    background: $firstGrey-color;
+    img{
+        margin: 0 25px;
+    }
+      @media (max-width: 575px) {
+          img{
+              margin: 25px 0;
+          }
+      }
+}

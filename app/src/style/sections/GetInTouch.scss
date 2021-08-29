@@ -1,0 +1,39 @@
+#GetInTouch{
+    background-color: $firstGrey-color;
+    h3{
+        color: $white-color;
+    }
+    p{
+        color: #9da6ac;
+    }
+    form{
+        input, textarea{
+            background-color: #34363a;
+            border: 0.5px solid #9da6ac;
+        }
+        
+               ::-webkit-input-placeholder {
+                   /* Chrome/Opera/Safari */
+                   color: #9da6ac;
+               }
+
+               ::-moz-placeholder {
+                   /* Firefox 19+ */
+                   color: #9da6ac;
+               }
+
+               :-ms-input-placeholder {
+                   /* IE 10+ */
+                   color: #9da6ac;
+               }
+
+               :-moz-placeholder {
+                   /* Firefox 18- */
+                   color: #9da6ac;
+               }
+        .btn{
+            background-color: $main-color;
+     
+    }
+    }
+}

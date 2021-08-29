@@ -1,0 +1,27 @@
+#subscribe{
+      height: 30vh;
+      background-image: url("../img/subscribe.png");
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+      object-fit: cover;
+      h3, p {
+            color: $white-color;
+      }
+      .input{
+            border-top-right-radius: 0%;
+            border-bottom-right-radius: 0%;
+      }
+      #email{
+            background-color: $main-color;
+         color: $white-color;
+         border-top-left-radius: 0%;
+         border: none;
+      }
+        @media (max-width: 575px) {
+              .btn {
+                   margin-top: 15px;
+              }
+        }
+      
+}

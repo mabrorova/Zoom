@@ -1,0 +1,63 @@
+//Nav  section. 
+#mainNav {
+  background: rgba(0, 0, 0, 0.3);
+  img{
+    width: 50px;
+    height: auto;
+  }
+  #navbarNav {
+  
+    .nav-link {
+      color: $white-color;
+      font-size: medium;
+      font-family: $M;
+    }
+  }
+}
+//Header section. 
+#header {
+  height: 100vh;
+  background-image: url("../img/header_background.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  #header-container {
+    h1 {
+      text-align: center;
+      color: $white-color;
+      font {
+        font-family: $M;
+        font-size: 20px;
+      }
+    }
+    .appStore {
+   box-shadow: -1px 1px 0px 1px #cecece;
+      text-align: left;
+      padding: 9px 15px;
+      font-family: $M;
+      background: white;
+      border-radius: 10px;
+      text-decoration: none;
+      color: #9da6ac;
+      font-size: 22px;
+      font-weight: 600;
+      i {
+        padding-right: 9px;
+        margin-right: 13px;
+        border-right: 1px solid #9da6ac;
+        font-size: 50px;
+        .fa-windows{
+          color: #08bef3;
+        }
+      }
+      span {
+        color: #585b60;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+  }
+}
+
+
+

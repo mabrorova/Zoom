@@ -1,0 +1,45 @@
+//************************Variables**************
+$pink-color: #f65b89;
+$main-color: #ff3366;
+$purple-color: #724d86;
+$black-color: #2d2f32;
+$light-grey-color: rgba(128, 128, 128, 0.8);
+$firstGrey-color:#2d2f32;
+$secondGrey-color:#34363a;
+$white-color: #ffffff;
+
+//********Fonts************
+$M: 'Montserrat', sans-serif;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: $M;
+}
+
+@import 'sections/header.scss';
+ @import 'sections/features.scss';
+ @import 'sections/video.scss';
+ @import 'sections/describe.scss';
+ @import 'sections/video2.scss';
+ @import 'sections/layout.scss';
+ @import 'sections/gallery.scss';
+ @import 'sections/price.scss';
+ @import 'sections/slider.scss';
+ @import 'sections/seen.scss';
+ @import 'sections/download.scss';
+ @import 'sections/subscribe.scss';
+ @import 'sections/GetInTouch.scss';
+ @import 'sections/footer.scss';
+
+@import 'lib/bootstrap';
+@import 'lib/font-awesome';
+
+
+
+
+
+
+
+
+

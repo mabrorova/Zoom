@@ -1,0 +1,27 @@
+
+//Video section. 
+#video{
+    height: 40vh;
+    background-image: url("../img/videosec.png");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    h5 {
+      font-family: $M;
+      font-size: 30px;
+      color: $white-color;
+      margin: 0;
+      padding-top: 20px;
+    }
+    video {
+      display: none;
+    }
+    .fa {
+      font-size: 60px;
+      color: $white-color;
+  &:hover {
+      cursor: pointer;
+  }
+  }
+  }

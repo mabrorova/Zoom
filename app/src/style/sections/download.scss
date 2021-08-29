@@ -1,0 +1,52 @@
+.download{
+    background-color:$secondGrey-color;
+    #download-item {
+      .buttons{
+        .iphone{
+          background-color: #858689;
+        }
+          .play {
+            background-color: #a4c639;
+          }
+
+          .win {
+            background-color: #1ac3f3;
+          }
+      }
+        h3 {
+          color: $white-color;
+          font {
+            font-family: $M;
+            font-size: 20px;
+          }
+        }
+        p{
+          color: #9da6ac;
+            font-family: $M;
+        }
+        
+        .appStore {
+          color: $white-color;
+          text-align: left;
+          padding: 9px 15px;
+          font-family: $M;
+          background: white;
+          border-radius: 10px;
+          text-decoration: none;
+          font-size: 22px;
+          font-weight: 600;
+          i {
+            color: $white-color;
+            padding-right: 9px;
+            margin-right: 13px;
+            border-right: 1px solid #9da6ac;
+            font-size: 50px;
+          }
+          span {
+            color: white;
+            font-size: 14px;
+            font-weight: 500;
+          }
+        }
+      }
+}
